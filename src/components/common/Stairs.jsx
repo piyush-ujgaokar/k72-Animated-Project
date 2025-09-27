@@ -7,7 +7,6 @@ const Stairs = (props) => {
     console.log(props.children);
     
     const currentPath=useLocation().pathname
-    console.log(currentPath);
     
 
     const pageRef=useRef(null)
