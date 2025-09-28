@@ -33,8 +33,8 @@ const Agence = () => {
            scrollTrigger:{
             trigger:imageDiv.current,
             // markers:true,
-            start:"top 20%",
-            end:"top -150%",
+            start:"top 30%",
+            end:"top -140%",
             pin:true,
             pinSpacing:true,
             pinReparent:true,
@@ -58,9 +58,9 @@ const Agence = () => {
     })
 
   return (
-<div className='parent'>
+<div className='parent  bg-black'>
        <div id='page1' className='py-1'>
-    <div ref={imageDiv} className='absolute h-[20vw] w-[15vw] top-[5vw] left-[30vw] rounded-3xl overflow-hidden'>
+    <div ref={imageDiv} className='absolute h-[20vw] w-[15vw] top-[12vw] left-[30vw] rounded-3xl overflow-hidden'>
         <img ref={imageRef} className='w-full h-full object-cover' src="public/images/img-1.jpg" alt="" />
     </div>
      <div className='relative font-[font2]'>

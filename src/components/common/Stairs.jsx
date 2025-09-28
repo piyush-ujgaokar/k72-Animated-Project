@@ -4,7 +4,6 @@ import gsap from 'gsap'
 import { useLocation } from 'react-router-dom'
 
 const Stairs = (props) => {
-    console.log(props.children);
     
     const currentPath=useLocation().pathname
     

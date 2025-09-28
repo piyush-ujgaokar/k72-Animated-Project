@@ -50,14 +50,14 @@ const FullScreenNav = () => {
                 amount:0.2
             }
         })
+        tl.to('.nav',{
+            opacity:0
+        })
         tl.to('.stairring',{
             height:0,
             stagger:{
                 amount:0.1
             }
-        })
-        tl.to('.nav',{
-            opacity:0
         })
 
           tl.to('.fullScreennav',{
