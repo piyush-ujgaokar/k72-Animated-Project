@@ -14,7 +14,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <NavBar/>
       <FullScreenNav/>
     <div className='text-5xl'>

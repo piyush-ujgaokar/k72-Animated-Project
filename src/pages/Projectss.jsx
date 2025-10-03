@@ -160,7 +160,7 @@ import React from 'react'
 import ProjectCards from '../components/projects/ProjectCards'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 
 const Projects = () => {
