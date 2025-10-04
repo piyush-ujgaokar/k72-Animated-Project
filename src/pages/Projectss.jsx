@@ -229,11 +229,11 @@ useGSAP(() => {
 
 
   return (
-    <div className='main p-2'>
-      <div className='pt-[42vh] '>
-        <h2 className='font-[font2] text-[12vw] text-black uppercase'>Projets</h2>
+    <div className='main lg:p-2 p-1'>
+      <div className='lg:pt-[42vh] pt-[50vh] '>
+        <h2 className='font-[font2] lg:text-[12vw] text-[18vw] text-black uppercase'>work</h2>
       </div>
-      <div className="lol h-[600vh]">
+      <div className="lol lg:h-[600vh] h-[600vh]">
   {projects.map((elem, idx) => (
     <div key={idx} className="hero w-full mb-4 flex flex-col lg:flex-row gap-2">
       <ProjectCards image1={elem.image1} image2={elem.image2} />

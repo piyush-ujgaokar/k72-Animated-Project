@@ -58,19 +58,19 @@ const Agence = () => {
     })
 
   return (
-<div className='parent  bg-black'>
+<div className='parent  bg-white text-black'>
        <div id='page1' className='py-1'>
-    <div ref={imageDiv} className='absolute h-[20vw] w-[15vw] top-[12vw] left-[30vw] rounded-3xl overflow-hidden'>
+    <div ref={imageDiv} className='absolute bg-red-500 lg:h-[20vw] h-[18vh] lg:w-[15vw] w-[25vw] lg:top-[6vh] top-[10vh] left-[30vw] rounded-3xl overflow-hidden'>
         <img ref={imageRef} className='w-full h-full object-cover' src="public/images/img-1.jpg" alt="" />
     </div>
-     <div className='relative font-[font2]'>
-        <div className='mt-[55vh]'>
-            <h1 className='text-[20vw] leading-[17vw] uppercase text-center'>Soixan7e <br />    
+     <div className='relative  font-[font2]'>
+        <div className='lg:mt-[55vh] mt-[25vh]'>
+            <h1 className='lg:text-[20vw] text-[16vw] font-[font2] leading-[17vw] uppercase text-center'>Soixan7e <br />    
             Douze</h1>
             </div>
 
-        <div className=' pl-[44%] mt-20'>
-            <p className='text-[3.5vw]'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
+        <div className=' lg:pl-[44%] pl-0 mt-20'>
+            <p className='lg:text-[3.5vw] p-2 leading-tight text-[5vw]'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We’re inquisitive and open-minded, and we make sure creativity crowds out ego from every corner. A brand is a living thing, with values, a personality and a story. If we ignore that, we can achieve short-term success, but not influence that goes the distance. We bring that perspective to every brand story we help tell.</p>
         </div>
     </div>
    </div>

@@ -45,7 +45,7 @@ const Stairs = (props) => {
 
   return (
     <div>
-        <div ref={stairParentRef} className='h-screen w-full flex top-0 fixed z-10'>
+        <div ref={stairParentRef} className='h-full w-full flex top-0 fixed z-10'>
         <div className='h-screen w-full flex'>
         <div className='stair h-full w-1/5 bg-black '></div>
         <div className='stair h-full w-1/5 bg-black '></div>
