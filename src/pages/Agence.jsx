@@ -11,20 +11,20 @@ const Agence = () => {
 
 
     const imageArr=[
-        'public/images/img-1.jpg',
-        'public/images/img-2.jpg',
-        'public/images/img-3.jpg',
-        'public/images/img-4.jpg',
-        'public/images/img-5.jpg',
-        'public/images/img-6.jpg',
-        'public/images/img-7.jpg',
-        'public/images/img-8.jpg',
-        'public/images/img-9.jpg',
-        'public/images/img-10.jpg',
-        'public/images/img-11.jpg',
-        'public/images/img-12.jpg',
-        'public/images/img-13.jpg',
-        'public/images/img-14.jpg',
+        '/images/img-1.jpg',
+        '/images/img-2.jpg',
+        '/images/img-3.jpg',
+        '/images/img-4.jpg',
+        '/images/img-5.jpg',
+        '/images/img-6.jpg',
+        '/images/img-7.jpg',
+        '/images/img-8.jpg',
+        '/images/img-9.jpg',
+        '/images/img-10.jpg',
+        '/images/img-11.jpg',
+        '/images/img-12.jpg',
+        '/images/img-13.jpg',
+        '/images/img-14.jpg',
     ]
 
 
