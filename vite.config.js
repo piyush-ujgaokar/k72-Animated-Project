@@ -4,9 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/k72-Animated-Project/',
   plugins: [
     react(),
     tailwindcss(),
   ],
-  base: '/k72-Animated-Project/'
 })
