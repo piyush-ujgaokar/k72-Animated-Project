@@ -61,7 +61,7 @@ const Agence = () => {
 <div className='parent  bg-white text-black'>
        <div id='page1' className='py-1'>
     <div ref={imageDiv} className='absolute bg-red-500 lg:h-[20vw] h-[18vh] lg:w-[15vw] w-[25vw] lg:top-[6vh] top-[10vh] left-[30vw] rounded-3xl overflow-hidden'>
-        <img ref={imageRef} className='w-full h-full object-cover' src="public/images/img-1.jpg" alt="" />
+        <img ref={imageRef} className='w-full h-full object-cover' src="/images/img-1.jpg" alt="" />
     </div>
      <div className='relative  font-[font2]'>
         <div className='lg:mt-[55vh] mt-[25vh]'>

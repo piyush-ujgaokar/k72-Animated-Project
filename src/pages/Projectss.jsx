@@ -167,36 +167,36 @@ const Projects = () => {
 
      const projects=[
      {
-      image1:'../../public/images/projects/img-1.jpg',
-      image2:'../../public/images/projects/img-2.jpg',
+      image1:'/images/projects/img-1.jpg',
+      image2:'/images/projects/img-2.jpg',
      },,
      {
-      image1:'../../public/images/projects/img-3.jpg',
-      image2:'../../public/images/projects/img-4.jpg',
+      image1:'/images/projects/img-3.jpg',
+      image2:'/images/projects/img-4.jpg',
      },
       {
-      image1:'../../public/images/projects/img-5.jpg',
-      image2:'../../public/images/projects/img-6.jpg',
+      image1:'./images/projects/img-5.jpg',
+      image2:'/images/projects/img-6.jpg',
       },
       {
-       image1:'../../public/images/projects/img-7.jpg',
-      image2:'../../public/images/projects/img-8.jpg',
+       image1:'/images/projects/img-7.jpg',
+      image2:'/images/projects/img-8.jpg',
       },
      {
-       image1:'../../public/images/projects/img-9.jpg',
-      image2:'../../public/images/projects/img-10.jpg',
+       image1:'/images/projects/img-9.jpg',
+      image2:'/images/projects/img-10.jpg',
      },
     {
-      image1:'../../public/images/projects/img-11.jpg',
-      image2:'../../public/images/projects/img-12.jpg',
+      image1:'/images/projects/img-11.jpg',
+      image2:'/images/projects/img-12.jpg',
     },
     {
-      image1:'../../public/images/projects/img-13.jpg',
-      image2:'../../public/images/projects/img-14.jpg',
+      image1:'/images/projects/img-13.jpg',
+      image2:'/images/projects/img-14.jpg',
     },
     {
-      image1:'../../public/images/projects/img-15.jpg',
-      image2:'../../public/images/projects/img-16.jpg',
+      image1:'/images/projects/img-15.jpg',
+      image2:'/images/projects/img-16.jpg',
     },
     ]
 
