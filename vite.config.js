@@ -8,5 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/k72-Animated-Project/',
 })
